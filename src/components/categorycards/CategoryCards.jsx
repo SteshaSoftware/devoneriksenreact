@@ -2,7 +2,7 @@ import { Box, Card, CardActionArea, CardContent, CardMedia, Stack, Typography } 
 import React from 'react'
 import book1 from "../../images/book1over.png"
 import { Link } from 'react-router-dom'
-import Button from '../Buttton/button'
+import Button from '../Button/button'
 import "./categoryCard.css"
 const CategoryCards = () => {
     return (

@@ -3,7 +3,7 @@ import React from 'react'
 // import "./authorCard.css"
 import book1 from "../../images/book1over.png"
 import "./bookcard.css"
-import Button from '../Buttton/button'
+import Button from '../Button/button'
 import { Link } from 'react-router-dom'
 
 const BookCard = () => {
