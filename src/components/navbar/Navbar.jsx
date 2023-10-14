@@ -160,7 +160,7 @@ const Navbar = () => {
                         <BsChevronDown />
                       </div>
                       <ul className="absolute z-10 hidden text-gray-700 pt-1 group-hover:block">
-                        <li className="">
+                        {/*<li className="">
                           <Link
                             to={"/writingarticles"}
                             className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
@@ -168,7 +168,7 @@ const Navbar = () => {
                           >
                             Articles
                           </Link>
-                        </li>
+                      </li>*/}
                         <li className="">
                           <Link to={"/writingfiction"}
                             className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
@@ -264,7 +264,7 @@ const Navbar = () => {
                           <BsChevronDown />
                         </div>
                         <ul className="absolute z-10 hidden text-gray-700 pt-1 group-hover:block">
-                          <li className="">
+                          {/*<li className="">
                             <Link
                               to={"/writingarticles"}
                               className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
@@ -272,7 +272,7 @@ const Navbar = () => {
                             >
                               Articles
                             </Link>
-                          </li>
+                          </li>*/}
                           <li className="">
                             <Link to={"/writingfiction"}
                               className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
