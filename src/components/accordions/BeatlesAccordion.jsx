@@ -4,9 +4,6 @@ import React, { useState } from 'react'
 const BeatlesAccordion = () => {
     const initialContent = `
     
-    
-    <NavLink to='/short-stories' className={'underline mt-2 '}>short stories</NavLink><br/><br/>
-    
     “I wuz jest settin’ on the porch, puffin’ smoke-pipe, when Ole Flattop come grooving up, real slow-like. He wuz alus slow, Ole Flattop, cuz he ain’t gotta hurry him none. Got them juju in his eyes, one wut sees the future and the other wut sees the Invisible World. Ole Flattop alus know where he gotta be, in plenty o’time to get hisself there.<br/><br/>
     
     He ein’t in no hurry. He a joker. Most o’ the time, he just do what he please.<br/><br/>

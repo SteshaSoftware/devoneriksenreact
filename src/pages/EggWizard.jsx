@@ -11,8 +11,6 @@ const EggWizard = () => {
         </Typography>
 
         <Typography className='mt-4'>Jun 7, 2023</Typography>
-        <NavLink to='/short-stories' className={'underline mt-2 '}>short stories</NavLink> 
-       
 
         <Typography className='mt-4'>
         “An unexpected pleasure, Your Egg-selency. Have you brought us an omelette?”

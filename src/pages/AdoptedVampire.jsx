@@ -12,7 +12,6 @@ const AdoptedVampire = () => {
                 </Typography>
 
                 <Typography className='mt-4'>May 30, 2023</Typography>
-                <NavLink to='/short-stories' className={'underline mt-2 '}>short stories</NavLink>
                 <Typography className='mt-4'>
                     All too soon, he pulls his wrist away. I pick my head up, try to follow it, cling to his arm, whining my frustration. My need.
                 </Typography>

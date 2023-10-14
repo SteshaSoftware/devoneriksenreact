@@ -4,8 +4,6 @@ import React, { useState } from 'react'
 const SwordLessonAccordion = () => {
     const initialContent = `
     
-    <NavLink to='/short-stories' className={'underline mt-2 '}>short stories</NavLink><br/><br/>
-    
     “Why do we even need to do this? Swords are for peasants.”<br/><br/>
     
     Of course it’s the redhead, her voice as grating and whiny as her face is exquisite. I don’t even turn, just reverse my grip and stab the practice sword backwards, right beneath her sternum. Her whining cuts off as she folds around the hard red oak, and I can feel weight slide off it as she slumps to the floor.<br/><br/>

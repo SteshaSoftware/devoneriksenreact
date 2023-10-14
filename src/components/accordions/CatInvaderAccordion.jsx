@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 const CatInvaderAccordion = () => {
     const initialContent = `
     
-    <NavLink to='/short-stories' className={'underline mt-2 '}>short stories</NavLink><br/><br/>
     "Turn around slowly, with your hands… wha… the…"<br/><br/>
     You’d have stammered too, if you saw what I saw. Somebody breaks into your house, you expect a big scary dude, balaclava, maybe a gun. Or a crowbar for prying windows.<br/><br/>
     What I didn’t expect was a bottom. Well, to be honest, it was more of an ass. The kind of ass that writes its own ticket to private events, on top of exactly the pair of legs you’d want for sashaying it in past the velvet ropes.<br/><br/>

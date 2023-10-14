@@ -4,8 +4,6 @@ import React, { useState } from 'react'
 const EddwizardAccordion = () => {
   const initialContent = `
   
-    
-  <NavLink to='/short-stories' className={'underline mt-2 '}>short stories</NavLink><br/><br/>
   
   “An unexpected pleasure, Your Egg-selency. Have you brought us an omelette?”<br/><br/>
   

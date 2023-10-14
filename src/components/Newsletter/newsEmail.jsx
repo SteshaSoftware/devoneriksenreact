@@ -40,12 +40,8 @@ const NewsEmail = () => {
     <>
     <Box sx={{ textAlign:"center"}} marginTop={7} marginBottom={10}>
         <Typography variant='h2'  sx={{fontSize: {md:48, xs:38}}} fontFamily={"EB Garamond, serif"} color={"#FFFF"}>
-            Be the first to know
+            Subscribe for Book Updates
         </Typography>
-
-<Typography variant='h6' fontFamily={"Heebo, sans-serif"} fontSize={{xs:"13.5px", sm:"16px"}} sx={{marginLeft:"auto", marginRight:"auto"}} marginTop={0.5} color={"#FFFF"} width={{xs:"90%", sm:"70%", md:"50%"}}>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum nemo, doloribus  maxime expedita illo magni odit.
-</Typography>
 
 <form onSubmit={handleSubmit(subscribe)}  noValidate>
 <Controller  name="email" control={control} 

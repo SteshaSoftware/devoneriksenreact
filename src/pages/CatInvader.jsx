@@ -12,7 +12,6 @@ const CatInvader = () => {
         </Typography>
 
         <Typography className='mt-4'>Jun 15, 2023</Typography>
-        <NavLink to='/short-stories' className={'underline mt-2 '}>short stories</NavLink>
 
         <Typography className='mt-4'>"Turn around slowly, with your hands… wha… the…"</Typography>
 

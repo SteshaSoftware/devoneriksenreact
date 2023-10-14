@@ -12,7 +12,6 @@ const SwordLessons = () => {
             </Typography>
 
             <Typography className='mt-4'>Jun 8, 2023</Typography>
-            <NavLink to='/short-stories' className={'underline mt-2 '}>short stories</NavLink>
             <Typography className='mt-4'>
                 “Why do we even need to do this? Swords are for peasants.”
             </Typography>

@@ -4,9 +4,6 @@ import React, { useState } from 'react'
 const AdoptedVampireAccordion = () => {
   const initialContent = `
   
-    
-  Short Stories<br/><br/>
-  
   All too soon, he pulls his wrist away. I pick my head up, try to follow it, cling to his arm, whining my frustration. My need.<br/><br/>
   
   But the legends aren’t true, at least not in this. I don’t have the strength of ten men. I have the strength of one skinny twelve year old girl. He wrenches his arm free, pushes me down with the other hand, the back of my head back down onto his thighs, pins me as I thrash and hiss and struggle, clawing up at him.<br/><br/>
