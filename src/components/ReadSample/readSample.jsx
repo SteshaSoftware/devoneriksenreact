@@ -7,6 +7,8 @@ import "./readsample.css";
 
 // import pdffile from '../../images/03. The Call of the Wild author Jack London.pdf';
 import ReviewCard from '../ReviewCard/reviewCard';
+import ReviewCard2 from '../ReviewCard/reviewCard2';
+import ReviewCard3 from '../ReviewCard/reviewCard3';
 import { Box, Typography } from '@mui/material';
 
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -41,11 +43,12 @@ const ReadSample = () => {
   </div>
   
   <div class="carousel-item">
-  <ReviewCard/>
+  <ReviewCard2/>
   </div>
   <div class="carousel-item">
-  <ReviewCard/>
+  <ReviewCard3/>
   </div>
+ 
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
