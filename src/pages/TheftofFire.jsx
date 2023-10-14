@@ -1,5 +1,5 @@
 import React from 'react'
-import TheftOfFire from '../components/theftofFiree/theftoffire'
+import TheftOfFire from '../components/theftofFire/theftoffire'
 
 const TheftofFire = () => {
   return (

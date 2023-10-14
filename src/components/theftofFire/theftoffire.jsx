@@ -3,7 +3,7 @@ import { Box, Card, CardActionArea, CardContent, CardMedia, Divider, Stack, Typo
 import book1 from "../../images/book1over.png"
 import { Link } from 'react-router-dom'
 import "./theft.css"
-import Button from '../Buttton/button'
+import Button from '../Button/button'
 
 const TheftOfFire = () => {
     return (
