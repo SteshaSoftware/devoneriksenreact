@@ -1,5 +1,6 @@
 import { Box, Card, CardContent, CardMedia, Grid, Stack, Typography } from '@mui/material'
 import React from 'react'
+import photo from "../../images/Devon Author.jpg"
 
 const Biography = () => {
     return (
@@ -11,7 +12,7 @@ const Biography = () => {
                 data-aos="fade-left"
                 component="img"
                 sx={{ padding: { md: 7, xs: 3 }, width: { md: "400px", xs: "100%", sm: "65%" }, height: { md: "400px", xs: "100%", sm: "65%" } }}
-                image={"https://websitedemos.net/book-store-02/wp-content/uploads/sites/834/2021/04/author-book-store-author-img.jpg"}
+                image={photo}
                 alt="Live from space album cover"
             />
             <Box sx={{ display: 'flex', flexDirection: 'column', order: { xs: 1, md: 0 } }}>
