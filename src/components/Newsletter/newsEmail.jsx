@@ -1,7 +1,7 @@
 import { Box, TextField, Typography } from '@mui/material'
 import React from 'react'
 import { Controller, useForm } from 'react-hook-form'
-import "./newslettter.css"
+import "./newsletter.css"
 import axios from "axios"
 import Swal from 'sweetalert2'
 
