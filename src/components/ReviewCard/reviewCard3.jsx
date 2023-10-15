@@ -18,7 +18,7 @@ const ReviewCard = () => {
                         <p className='mt-2'>I read this as a beta reader before it had an ISBN. 
                         One of the best sci-fi novels I've ever read. Great characters, plot, and not 
                         insulting to the reader's intelligence (which is rare for modern sci-fi...).</p>
-                        <h3 className='mt-3'><strong style={{fontSize:"22px"}}><span>—</span>Ryan Lackey, CSO of Evertask and Sci-Fi Super-Reader</strong></h3>
+                        <h3 className='mt-3'><strong style={{fontSize:"22px"}}><span>—</span>Ryan Lackey, CSO of Evertas and Sci-Fi Super-Reader</strong></h3>
                     </div>
                 </div>
                 <BiSolidQuoteRight className='absolute bottom-6 right-16' size={40}  color='#ff9b02'/>
