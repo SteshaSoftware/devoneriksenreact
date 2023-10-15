@@ -6,6 +6,7 @@ import { BsFillSendFill } from "react-icons/bs";
 import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
 import { createContact } from '../store/products';
+import { FaGoodreads } from "react-icons/fa"
 import {FaRedditAlien} from "react-icons/fa"
 import {BsMastodon} from "react-icons/bs"
 import { FaFacebookSquare, FaLinkedin } from 'react-icons/fa';
@@ -43,26 +44,28 @@ const Contact = () => {
                     
                     <Stack direction={"row"} marginTop={{md:13, xs:3}} spacing={2} justifyContent="center" alignItems={"center"}>
                         <Stack spacing={2} direction={"column"}>
+                        <a href='https://www.goodreads.com/author/show/44421655.Devon_Eriksen' target='_blank'>
+                        <FaGoodreads className='icons' size={42} />
+                    </a>
                         <a href='https://www.facebook.com/DevonEriksen/' target='_blank'>
                         <FaFacebookSquare className='icons' size={42} />
                         </a>
 
-<a href='https://twitter.com/Devon_Eriksen_' target='_blank'>
+                   <a href='https://twitter.com/Devon_Eriksen_' target='_blank'>
                         <RiTwitterXLine className='icons' size={42} />
                         </a>
                         <a href='https://www.reddit.com/user/devoneriksenwrites/' target='_blank'>
                         <FaRedditAlien className='icons' size={42} />
                         </a>
-        <a href='https://mastodon.social/@DevonEriksen' target='_blank'>
-                        <BsMastodon className='icons' size={42} />
-        </a>
+        
         </Stack>
 
         <Stack spacing={3} >
+            <Typography color={"#fff"} fontSize={"23px"}>Devon_Eriksen</Typography>
             <Typography color={"#fff"} fontSize={"23px"}>DevonEriksen</Typography>
-            <Typography color={"#fff"} fontSize={"23px"}>Devon_Eriksen_</Typography>
-            <Typography color={"#fff"} fontSize={"23px"}>devoneriksenwrites</Typography>
-            <Typography color={"#fff"} fontSize={"23px"}>@DevonEriksen</Typography>
+            <Typography color={"#fff"} fontSize={"23px"}>@Devon_Eriksen_</Typography>
+            <Typography color={"#fff"} fontSize={"23px"}>u/DevonEriksenWrites</Typography>
+            
         </Stack>
                     </Stack>
 

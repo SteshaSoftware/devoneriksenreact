@@ -1,6 +1,7 @@
 import React from 'react'
+import { FaGoodreadsG, FaGoodreads } from "react-icons/fa"
 import { FaFacebookSquare, FaLinkedin } from 'react-icons/fa';
-import { RiTwitterXLine } from 'react-icons/ri';
+import { RiTwitterXLine, RiTwitterXFill } from 'react-icons/ri';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { Stack, Typography } from '@mui/material';
 import { NavLink } from 'react-router-dom';
@@ -38,6 +39,9 @@ const Footer = () => {
                         </NavLink>
                     </Stack>
                     <Stack direction="row" spacing={1.5} justifyContent="center">
+                        <a href='https://www.goodreads.com/book/show/199142773-theft-of-fire' target='_blank'>
+                            <FaGoodreads className='icons' size={30} />
+                        </a>
                         <a href='https://www.facebook.com/DevonEriksen/' target='_blank'>
                             <FaFacebookSquare className='icons' size={30} />
                         </a>
@@ -48,9 +52,7 @@ const Footer = () => {
                         <a href='https://www.reddit.com/user/devoneriksenwrites/' target='_blank'>
                             <FaRedditAlien className='icons' size={30} />
                         </a>
-                        <a href='https://mastodon.social/@DevonEriksen' target='_blank'>
-                            <BsMastodon className='icons' size={30} />
-                        </a>
+                        
                     </Stack>
                 </Stack>
 
