@@ -76,7 +76,7 @@ const Contact = () => {
                         <Typography variant='h5' component="div" sx={{ color: "black" }}>
                         Send me an email
                         </Typography>
-                        <form onSubmit={handleSubmit(addContact)}>
+                        <form action="https://formsubmit.co/devoneriksen@protonmail.com" method="POST">
 
 
                             <Box sx={{ marginTop: 3, display: "flex", flexDirection: "column", gap: 3 }}>
@@ -109,6 +109,7 @@ const Contact = () => {
 
                             </Box>
                         </form>
+                       
                     </Box>
                 </Grid>
 
