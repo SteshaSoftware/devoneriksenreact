@@ -39,11 +39,11 @@ const App = () => {
         { path: "writing", element: <WritingAll /> },
         {path: "writingfiction",element: <Fictionwrting />},
         {path: "short-stories",element: <ShortStories />},
-        {path: "writingfiction/cat-invader",element: <CatInvader />},
         {path: "writingfiction/sword-lessons",element: <SwordLessons />},
         {path: "writingfiction/egg-wizard",element: <EggWizard />},
-        {path: "writingfiction/beatles",element: <Beatles />},
         {path: "writingfiction/adopted-vampire",element: <AdoptedVampire />},
+        {path: "writingfiction/beatles",element: <Beatles />},
+        {path: "writingfiction/cat-invader",element: <CatInvader />},
       ]
     }
   ];
