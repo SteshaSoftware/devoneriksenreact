@@ -45,6 +45,9 @@ Maybe they won’t murder each other on the way there.</Typography>
 <Button />
          
 </Box>   
+<Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 20, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#FFFFFF"} style={{ marginTop: '20px' }}>  
+  Add to <a href="https://www.goodreads.com/book/show/199142773-theft-of-fire" style={{ color: "#ff9b02" }}>Goodreads</a>
+  </Typography>
                 </Stack>
                
             </Box>

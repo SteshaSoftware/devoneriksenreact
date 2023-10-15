@@ -1,12 +1,11 @@
 import React from 'react'
-import { FaGoodreadsG, FaGoodreads } from "react-icons/fa"
+import { FaGoodreads } from "react-icons/fa"
 import { FaFacebookSquare, FaLinkedin } from 'react-icons/fa';
 import { RiTwitterXLine, RiTwitterXFill } from 'react-icons/ri';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { Stack, Typography } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 import { FaRedditAlien } from "react-icons/fa"
-import { BsMastodon } from "react-icons/bs"
 import "./footer.css"
 
 const Footer = () => {
