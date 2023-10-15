@@ -26,7 +26,7 @@ const ReviewCard = () => {
                         after a book that promises a good old-fashioned hard sci-fi adventure in the spirit 
                         of Gregory Benford or James S.A. Corey, and then delivers so much more, then this is 
                         one you won't want to miss.</p>
-                        <h3 className='mt-3'><strong style={{fontSize:"22px"}}><span>-</span>Johnny Schmidt, Failure Mode</strong></h3>
+                        <h3 className='mt-3'><strong style={{fontSize:"22px"}}><span>—</span>Johnny Schmidt, author of <i>Failure Mode</i></strong></h3>
                     </div>
                 </div>
                 <BiSolidQuoteRight className='absolute bottom-6 right-16' size={40}  color='#ff9b02'/>

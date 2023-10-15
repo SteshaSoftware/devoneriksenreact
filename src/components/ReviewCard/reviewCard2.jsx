@@ -21,7 +21,7 @@ const ReviewCard = () => {
                         irreverent Nivenesque humor.<br /><br />
 
                         This story grabbed me in minutes and called me back whenever I set it down.</p>
-                        <h3 className='mt-3'><strong style={{fontSize:"22px"}}><span>-</span>Uncle Bob Martin, author of Clean Code</strong></h3>
+                        <h3 className='mt-3'><strong style={{fontSize:"22px"}}><span>—</span>Uncle Bob Martin, author of <i>Clean Code</i></strong></h3>
                     </div>
                 </div>
                 <BiSolidQuoteRight className='absolute bottom-6 right-16' size={40}  color='#ff9b02'/>
