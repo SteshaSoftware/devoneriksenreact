@@ -3,8 +3,6 @@ import React from 'react'
 // import "./authorCard.css"
 import book1 from "../../images/book1over.png"
 import "./bookcard.css"
-import Button from '../Button/button'
-import StarButton from '../StarButton/starbutton'
 import { Link } from 'react-router-dom'
 import PurchaseBox from '../PurchaseBox/PurchaseBox'
 
@@ -17,7 +15,7 @@ const BookCard = () => {
         <Box sx={{ display: 'flex', flexDirection: 'column', order: { xs: 1, md: 0 } }}>
           <CardContent sx={{ justifyContent: "space-evenly", display: "flex", flexDirection: "column", flex: '-1 0 auto', }} data-aos="fade-right">
             <Typography component="div" variant="h5" fontSize={{ xs: 28, sm: 28, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#ff9b02"}>
-              Orbital Space Book 1
+              Orbital Space: Book 1
             </Typography>
             <Typography component="div" variant="h5" mt={1.5} fontSize={{ xs: 28, sm: 28, md: 70, lg: 80 }} fontWeight={"bold"} fontFamily={"EB Garamond, serif"} color={"#FFFF"}>
               Theft of Fire

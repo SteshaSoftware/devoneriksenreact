@@ -5,13 +5,15 @@ import "./Button.css"
 const Button = () => {
   return (
     <>
-      <a target='_blank' href={"https://dl.bookfunnel.com/h6gjdipcpw"}>
-        <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>Download
+      <a target='_blank' href={"https://www.amazon.com/gp/product/B0CJHQ4LZN"}>
+        <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>
+          Amazon
         </button>
       </a>
 
-      <a target='_blank' href={"http://www.google.com"}>
-        <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>Download
+      <a target='_blank' href={"https://www.barnesandnoble.com/"}>
+        <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>
+          Barnes and Noble
         </button>
       </a>
     </>
