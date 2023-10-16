@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-import BookCard from '../components/BookCard/Bookcard'
+import BookCard from '../components/BookCard/Bookcard';
 import { Box } from '@mui/material'
 import bg from "../images/bg.jpg"
 import HomeBanner from '../components/homeBanner/HomeBanner';

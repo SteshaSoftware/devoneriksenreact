@@ -5,10 +5,15 @@ import "./Button.css"
 const Button = () => {
   return (
     <>
-  <a target='_blank' href={"https://dl.bookfunnel.com/h6gjdipcpw"}>
-    <button class="buttn" style={{marginTop:25, marginLeft:15}}>Download
-</button>
-</a>
+      <a target='_blank' href={"https://dl.bookfunnel.com/h6gjdipcpw"}>
+        <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>Download
+        </button>
+      </a>
+
+      <a target='_blank' href={"http://www.google.com"}>
+        <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>Download
+        </button>
+      </a>
     </>
   )
 }

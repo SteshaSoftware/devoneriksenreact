@@ -31,7 +31,7 @@ Maybe they won’t murder each other on the way there.</Typography>
 <Box sx={{display:"flex", flexDirection:"row", justifyContent:{xs:"center", md:"start"}}}>
 <a target='_blank' href={"https://t.co/aaVNXJMcxi"}>
             <button class="btnn" type="button" style={{marginTop:25}}>
-  <strong>Read Sample</strong>
+  <strong>Read 3-Chapter Preview</strong>
   <div id="container-stars">
     <div id="stars"></div>
   </div>
