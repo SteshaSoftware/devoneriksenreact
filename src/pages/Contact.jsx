@@ -8,9 +8,9 @@ import { useDispatch } from 'react-redux';
 import { createContact } from '../store/products';
 import { FaGoodreads } from "react-icons/fa"
 import {FaRedditAlien} from "react-icons/fa"
-import {BsMastodon} from "react-icons/bs"
 import { FaFacebookSquare, FaLinkedin } from 'react-icons/fa';
 import { RiTwitterXLine } from 'react-icons/ri';
+import {FaInstagram} from "react-icons/fa"
 import Swal from 'sweetalert2';
 
 const Contact = () => {
@@ -38,24 +38,30 @@ const Contact = () => {
         <Box sx={{ width: "85%", marginLeft: "auto", marginRight: "auto", marginTop: 5, marginBottom: 5 }}>
             <Grid container>
                 <Grid item md={6} xs={12} p={3} sx={{ order: { xs: 1, md: 0 } }}>
-                    <Typography variant='h5' component="div" sx={{ color: "white" }}>
-                    Feel free to contact me. This form goes directly to my personal email, I try to respond to all of my reader mail.
+                    <Typography variant='h5' component="div" sx={{ color: "white"}}>
+                    Feel free to contact me. This form goes directly to my personal email, 
+                    I try to respond to all of my reader mail. <br /><br />
+                    I am available for appearances, please inquire by email. 
                     </Typography>
                     
-                    <Stack direction={"row"} marginTop={{md:13, xs:3}} spacing={2} justifyContent="center" alignItems={"center"}>
+                    <Stack direction={"row"} marginTop={{md:5, xs:3}} spacing={2} justifyContent="center" alignItems={"center"}>
                         <Stack spacing={2} direction={"column"}>
                         <a href='https://www.goodreads.com/author/show/44421655.Devon_Eriksen' target='_blank'>
                         <FaGoodreads className='icons' size={42} />
-                    </a>
+                        </a>
                         <a href='https://www.facebook.com/DevonEriksen/' target='_blank'>
                         <FaFacebookSquare className='icons' size={42} />
                         </a>
 
-                   <a href='https://twitter.com/Devon_Eriksen_' target='_blank'>
+                        <a href='https://twitter.com/Devon_Eriksen_' target='_blank'>
                         <RiTwitterXLine className='icons' size={42} />
                         </a>
                         <a href='https://www.reddit.com/user/devoneriksenwrites/' target='_blank'>
                         <FaRedditAlien className='icons' size={42} />
+                        </a>
+                    
+                        <a href='https://www.instagram.com/devoneriksen/' target='_blank'>
+                        <FaInstagram className='icons' size={42} />
                         </a>
         
         </Stack>
@@ -65,6 +71,7 @@ const Contact = () => {
             <Typography color={"#fff"} fontSize={"23px"}>DevonEriksen</Typography>
             <Typography color={"#fff"} fontSize={"23px"}>@Devon_Eriksen_</Typography>
             <Typography color={"#fff"} fontSize={"23px"}>u/DevonEriksenWrites</Typography>
+            <Typography color={"#fff"} fontSize={"23px"}>@DevonEriksen</Typography>
             
         </Stack>
                     </Stack>

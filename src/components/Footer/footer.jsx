@@ -2,10 +2,10 @@ import React from 'react'
 import { FaGoodreads } from "react-icons/fa"
 import { FaFacebookSquare, FaLinkedin } from 'react-icons/fa';
 import { RiTwitterXLine, RiTwitterXFill } from 'react-icons/ri';
-import { AiOutlineInstagram } from 'react-icons/ai';
 import { Stack, Typography } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 import { FaRedditAlien } from "react-icons/fa"
+import {FaInstagram} from "react-icons/fa"
 import "./footer.css"
 
 const Footer = () => {
@@ -51,7 +51,9 @@ const Footer = () => {
                         <a href='https://www.reddit.com/user/devoneriksenwrites/' target='_blank'>
                             <FaRedditAlien className='icons' size={30} />
                         </a>
-                        
+                        <a href='https://www.instagram.com/devoneriksen/' target='_blank'>
+                            <FaInstagram className='icons' size={30} />
+                        </a>
                     </Stack>
                 </Stack>
 
