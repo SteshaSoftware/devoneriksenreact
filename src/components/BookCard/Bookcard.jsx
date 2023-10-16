@@ -6,6 +6,7 @@ import "./bookcard.css"
 import Button from '../Button/button'
 import StarButton from '../StarButton/starbutton'
 import { Link } from 'react-router-dom'
+import PurchaseBox from '../PurchaseBox/PurchaseBox'
 
 const BookCard = () => {
   return (
@@ -29,16 +30,7 @@ const BookCard = () => {
               Maybe they won’t murder each other on the way there.
             </Typography>
 
-            <Box sx={{ display: "flex", flexDirection: "row", justifyContent: { xs: "center", md: "start" } }}>
-              <StarButton />
-              <Button />
-
-
-            </Box>
-
-            <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 20, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#FFFFFF"} style={{ marginTop: '20px' }}>
-              Add to <a href="https://www.goodreads.com/book/show/199142773-theft-of-fire" style={{ color: "#ff9b02" }}>Goodreads</a>
-            </Typography>
+            <PurchaseBox />
 
 
           </CardContent>

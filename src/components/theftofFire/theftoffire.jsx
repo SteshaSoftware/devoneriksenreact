@@ -3,8 +3,7 @@ import { Box, Card, CardActionArea, CardContent, CardMedia, Divider, Stack, Typo
 import book1 from "../../images/book1over.png"
 import { Link } from 'react-router-dom'
 import "./theft.css"
-import Button from '../Button/button'
-import StarButton from '../StarButton/starbutton'
+import PurchaseBox from '../PurchaseBox/PurchaseBox'
 
 const TheftOfFire = () => {
   return (
@@ -29,14 +28,7 @@ const TheftOfFire = () => {
             Or you could just send a tramp spacecraft constructed from plans found on internet, and crew it with a failed asteroid miner turned space pirate, a genetically modified - and emotionally unstable - heiress, and a prototype Artificial Intelligence in the midst of a catastrophic identity crisis.
 
             Maybe they won’t murder each other on the way there.</Typography>
-          <Box sx={{ display: "flex", flexDirection: "row", justifyContent: { xs: "center", md: "start" } }}>
-            <StarButton />
-            <Button />
-
-          </Box>
-          <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 20, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#FFFFFF"} style={{ marginTop: '20px' }}>
-            Add to <a href="https://www.goodreads.com/book/show/199142773-theft-of-fire" style={{ color: "#ff9b02" }}>Goodreads</a>
-          </Typography>
+          <PurchaseBox />
         </Stack>
 
       </Box>
