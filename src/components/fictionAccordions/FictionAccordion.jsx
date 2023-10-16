@@ -138,11 +138,12 @@ const FictionAccordion = () => {
 
     return (
         <>
+            <CatInvaderAccordion/>
             <AdoptedVampireAccordion/>
+            <BeatlesAccordion/>
             <EddwizardAccordion/>
             <SwordLessonAccordion/>
-            <BeatlesAccordion/>
-            <CatInvaderAccordion/>
+
         </>
     )
 }
