@@ -16,7 +16,7 @@ const BookCard = () => {
         <Box sx={{ display: 'flex', flexDirection: 'column', order: { xs: 1, md: 0 } }}>
           <CardContent sx={{ justifyContent: "space-evenly", display: "flex", flexDirection: "column", flex: '-1 0 auto', }} data-aos="fade-right">
             <Typography component="div" variant="h5" fontSize={{ xs: 28, sm: 28, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#ff9b02"}>
-              Orbital Space
+              Orbital Space Book 1
             </Typography>
             <Typography component="div" variant="h5" mt={1.5} fontSize={{ xs: 28, sm: 28, md: 70, lg: 80 }} fontWeight={"bold"} fontFamily={"EB Garamond, serif"} color={"#FFFF"}>
               Theft of Fire

@@ -19,7 +19,7 @@ const TheftOfFire = () => {
         />
 
         <Stack direction={"column"} spacing={1}>
-          <Typography variant='h6' className='mb-10'>Orbital Space</Typography>
+          <Typography variant='h6' className='mb-10'>Orbital Space Book 1</Typography>
 
           <Typography variant='h4' color={"white"}>Theft of Fire</Typography>
           {/* <Typography variant='body1' color={"#b79cff"} sx={{ fontSize:30 ,fontWeight:"bold"}}>$ 26.00</Typography> */}
