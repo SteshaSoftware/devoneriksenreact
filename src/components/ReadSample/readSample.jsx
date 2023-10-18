@@ -32,7 +32,7 @@ const ReadSample = () => {
     <>
 <Box sx={{width:{xs:"97%", sm:"87%"}, marginX:"auto", marginTop:5}}>
 <Typography component="div" variant="h5" mb={-6} fontSize={{ xs: 28, sm: 28, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#ff9b02"}>
-              CUSTOMER REVIEW
+              REVIEWS
     </Typography>
 </Box>
 
