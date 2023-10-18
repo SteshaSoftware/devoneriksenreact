@@ -25,7 +25,7 @@ import { Link, NavLink, useLocation, useNavigate, useParams } from 'react-router
 import { AccountCircle } from '@mui/icons-material';
 // import Dropdownn from './dropdown';
 import { BsChevronDown } from 'react-icons/bs';
-
+import NavBarButton from './navbarbutton';
 
 const settings = ['First Page', 'Latest Page', 'Archive'];
 
@@ -97,9 +97,7 @@ const Navbar = () => {
               </Grid>
               <Grid item md={12} lg={7.7} >
                 <Stack direction='row' justifyContent={{ md: "center" }} width={"100%"} alignItems={"center"} spacing={4}>
-                  <Link to='/'>
-                    <Button className={`${pathname === "/" ? "activeClass" : "noActiveClass"} font-style`} sx={{ fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Home</Button>
-                  </Link>
+                  <NavBarButton menuname="Home" />
                   <Link to='/novels'>
                     <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}><div className="antialiased">
                       <div className="group">
@@ -179,22 +177,10 @@ const Navbar = () => {
                     </div></Box>
                   </Link>
 
-                  <Link to='/events'>
-                    <Button className={`${pathname === "/events" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Events</Button>
-                  </Link>
-                  <Link to='/media'>
-                    <Button className={`${pathname === "/media" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Media</Button>
-                  </Link>
-                  <Link to='/about'>
-                    <Button className={`${pathname === "/about" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>About</Button>
-                  </Link>
-
-                  {/* </NavLink> */}
-                  <Link to='/contact'>
-                    <Button className={`${pathname === "/contact" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Contact</Button>
-                  </Link>
-
-                  {/* end here */}
+                  <NavBarButton menuname="Events" />
+                  <NavBarButton menuname="Media" />
+                  <NavBarButton menuname="About" />
+                  <NavBarButton menuname="Contact" />
                 </Stack>
 
 
