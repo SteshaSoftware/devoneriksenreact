@@ -17,9 +17,10 @@
   }
   
   /* Show droplist when .menuname-text is hovered */
-.navbarbutton:hover .droplist-text {
-    display: block;
-  }
+.navbarbutton:hover + .droplist-text,
+.droplist-text:hover {
+  display: block;
+}
 
 .sublistbutton{
 

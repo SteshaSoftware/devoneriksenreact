@@ -15,7 +15,7 @@ const NavBarButton = ({ menuname, droplist }) => {
                 </span>
                 
                 <span className="droplist-text dropdown">
-                    mooo
+                    {droplist}
                 </span>          
             </Link>
 
