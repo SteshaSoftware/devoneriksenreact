@@ -20,7 +20,9 @@
   .dropdown:hover{
     color: #ff9b02 !important;
   }
-
+  .activeClass:hover{
+    color: #ff9b02 !important;
+  }
   .activeClass{
     color: #ff9b02 !important;
   }
