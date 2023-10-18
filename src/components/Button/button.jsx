@@ -9,7 +9,7 @@ const Button = () => {
       <a target='_blank' href={"https://www.amazon.com/gp/product/B0CJHQ4LZN"}>
         <button class="buttn" style={{ marginTop: 25, marginLeft: 15 }}>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <img src={amazonimg} alt="AMAZON" style={{width: '80%'}}/>
+            <img src={amazonimg} alt="AMAZON" style={{width: '65%'}}/>
           </div>
         </button>
       </a>
