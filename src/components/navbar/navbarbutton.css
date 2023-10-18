@@ -12,3 +12,15 @@
 .navbarbutton:focus {
     color: #ff9b02;
 }
+.droplist-text {
+    display: none;
+  }
+  
+  /* Show droplist when .menuname-text is hovered */
+.navbarbutton:hover .droplist-text {
+    display: block;
+  }
+
+.sublistbutton{
+
+}

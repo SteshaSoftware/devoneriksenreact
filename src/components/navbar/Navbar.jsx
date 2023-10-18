@@ -179,7 +179,7 @@ const Navbar = () => {
 
                   <NavBarButton menuname="Events" />
                   <NavBarButton menuname="Media" />
-                  <NavBarButton menuname="About" />
+                  <NavBarButton menuname="About" droplist="More" />
                   <NavBarButton menuname="Contact" />
                 </Stack>
 

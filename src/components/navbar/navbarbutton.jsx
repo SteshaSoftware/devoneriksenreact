@@ -1,22 +1,32 @@
 import React, { useEffect } from 'react';
 import { Link, NavLink, useLocation, useNavigate, useParams } from 'react-router-dom';
+import { BsChevronDown } from 'react-icons/bs';
 import "./navbarbutton.css"
 
 
-const NavBarButton = ({ menuname }) => {
+const NavBarButton = ({ menuname, droplist }) => {
     const url = menuname === "Home" ? "/" : `/${menuname.toLowerCase()}`;
-    return (
-        <>
-
-
-            <Link className="navbarbutton" to={url}>
+    if (droplist) {
+        // Render a dropdown
+        return (
+            <Link to={url}>
+                <span className="navbarbutton rounded inline-flex items-center menuname-text">
+                    {menuname} <BsChevronDown />
+                </span>
                 
-                    {menuname}
-                
+                <span className="droplist-text dropdown">
+                    mooo
+                </span>          
             </Link>
-         
-        </>
-    )
-}
 
+        );
+    } else {
+        // Render a single link
+        return (
+            <Link className="navbarbutton" to={url}>
+                {menuname}
+            </Link>
+        );
+    }
+};
 export default NavBarButton
