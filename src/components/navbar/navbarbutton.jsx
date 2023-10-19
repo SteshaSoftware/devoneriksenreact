@@ -9,7 +9,7 @@ const NavBarButton = ({ menuname, droplist }) => {
     if (droplist) {
         // Render a dropdown
         return (
-            <Link to={url} style={{ marginRight: '10px' }}>
+            <Link to={url}>
                 <span className="navbarbutton rounded inline-flex items-center menuname-text">
                     {menuname} <BsChevronDown />
                 </span>
@@ -24,9 +24,7 @@ const NavBarButton = ({ menuname, droplist }) => {
         // Render a single link
         return (
             <Link className="navbarbutton" to={url}>
-                <span className="navbarbutton rounded inline-flex items-center menuname-text">
-                    {menuname}
-                </span>
+                {menuname}
             </Link>
         );
     }

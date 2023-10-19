@@ -109,15 +109,17 @@ const Navbar = () => {
                 </IconButton>
 
               </Stack>
-              <Stack direction={"column"} width="330px" height={"100%"} role="presentation"  alignItems="center">
+              <Stack direction={"column"} width="330px" height={"100%"} role="presentation" >
 
                 {/* <Link to={"/"} sx={{textDecoration:"none"}}> */}
                 <Typography variant="h4" sx={{ color: "white", marginTop: 6, marginBottom: 3, textAlign: "center", fontFamily: "Dancing Script, cursive" }}>Devon Eriksen</Typography>
                 {/* <img src={logo} sx={{padding:2}} alt="" height={100} width={90} /> */}
                 {/* </Link> */}
 
-                <NavBarButton menuname="Home" />
-                
+
+                <Link to='/'>
+                  <Button className={`${pathname === "/" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Home</Button>
+                </Link>
                 <Link to={"/novels"}>
                   <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300, px: 1 }} >
                     <div className="antialiased">
@@ -183,10 +185,19 @@ const Navbar = () => {
                   </div>
                   </Box>
                 </Link>
-                <NavBarButton menuname="Events" />
-                <NavBarButton menuname="Media" />
-                <NavBarButton menuname="About" droplist="more"/>
-                <NavBarButton menuname="Contact" />
+                <Link to='/events'>
+                  <Button className={`${pathname === "/events" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Events</Button>
+                </Link>
+                <Link to='/media'>
+                  <Button className={`${pathname === "/media" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Media</Button>
+                </Link>
+                <Link to='/about'>
+                  <Button className={`${pathname === "/about" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>About</Button>
+                </Link>
+
+                <Link to='/contact'>
+                  <Button className={`${pathname === "/contact" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Contact</Button>
+                </Link>
 
               </Stack>
             </Drawer>
