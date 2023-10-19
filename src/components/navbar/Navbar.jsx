@@ -26,6 +26,7 @@ import { AccountCircle } from '@mui/icons-material';
 // import Dropdownn from './dropdown';
 import { BsChevronDown } from 'react-icons/bs';
 import NavBarButton from './navbarbutton';
+import DropdownMenu from './DropdownMenu';
 
 const settings = ['First Page', 'Latest Page', 'Archive'];
 
@@ -33,6 +34,7 @@ const settings = ['First Page', 'Latest Page', 'Archive'];
 
 const Navbar = () => {
   // const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const [openDropdown, setOpenDropdown] = useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   // const handleOpenNavMenu = (event) => {
   //   setAnchorElNav(event.currentTarget);
@@ -62,8 +64,9 @@ const Navbar = () => {
     setAnchorEl(null)
   }
   const { pathname } = useLocation()
-  // const active = location.pathname 
-  // console.log(location.pathname);
+
+
+
   return (
     <>
       <Box width={{ md: "100%", xs: "100%" }} sx={{ marginLeft: "auto", marginRight: "auto", width: "100%" }} >
@@ -118,17 +121,17 @@ const Navbar = () => {
                   <Button className={`${pathname === "/" ? "activeClass" : "noActiveClass"} font-style`} sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}>Home</Button>
                 </Link>
                 <Link to={"/novels"}>
-                  <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins",           fontWeight: 300, px: 1 }} >
+                  <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300, px: 1 }} >
                     <div className="antialiased">
                       <div className="group">
                         <div
                           className={`${pathname === "/novels" ? "activeClass" : "noActiveClass"} font-style  dropdown rounded inline-flex items-center`}
                         >
                           <span className="mr-1 ">NOVELS</span>
-                        {/*<BsChevronDown />*/}
+                          {/*<BsChevronDown />*/}
                         </div>
                         <ul className="absolute z-10 hidden text-gray-700 pt-1 group-hover:block">
-                         {/* <li className="">
+                          {/* <li className="">
                             <Link
                               to={"/orbital-space"}
                               className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
@@ -151,7 +154,7 @@ const Navbar = () => {
                   </Box>
                 </Link>
                 <Link to='/writing'>
-                  <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300, px: 1,py:1 }}><div className="antialiased">
+                  <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300, px: 1, py: 1 }}><div className="antialiased">
                     <div className="group">
                       <div
                         className={`${pathname === "/writing" ? "activeClass" : "noActiveClass"} font-style  dropdown rounded inline-flex items-center`}
@@ -202,105 +205,22 @@ const Navbar = () => {
             <Grid style={{ marginTop: "35px", marginBottom: "35px" }} container alignItems={"center"} display={{ xs: "none", md: "flex" }}>
               <Grid md={12} item lg={4.3}>
                 <NavLink to={"/"} className={"hover:text-white"}>
-                  <Typography textAlign={{ md: "center", lg: "start" }} variant="h4" sx={{ paddingLeft: "33px", fontFamily: "Dancing Script, cursive" }}>Devon Eriksen</Typography>
+                  <Typography textAlign={{ md: "center", lg: "start" }} variant="h4" sx={{ paddingLeft: "33px", fontFamily: "Dancing Script, cursive" }}>MainDevon Eriksen</Typography>
                 </NavLink>
               </Grid>
-              <Grid item md={12} lg={7.7} >
+              <Grid item md={12} lg={7.7}>
                 <Stack direction='row' justifyContent={{ md: "center" }} width={"100%"} alignItems={"center"} spacing={4}>
                   <NavBarButton menuname="Home" />
-                  <Link to='/novels'>
-                    <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}><div className="antialiased">
-                      <div className="group">
-                        <div
-                          className={`${pathname === "/novels" ? "activeClass" : "noActiveClass"} font-style  dropdown rounded inline-flex items-center`}
-                        >
-                          <span className="mr-1 ">NOVELS</span>
-                          {/*<BsChevronDown />*/}
-                        </div>
-                        <ul className="absolute z-10 hidden text-gray-700 pt-1 group-hover:block">
-                          {/*<li className="">
-                            <Link
-                              to={"/orbital-space"}
-                              className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-
-                            >
-                              Orbital Space
-                            </Link>
-                          </li>
-                          <li className="">
-                            <a
-                              className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                              href="#"
-                            >
-                              2nd Category
-                            </a>
-                          </li>
-                          <li className="">
-                              <a
-                                className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                href="#"
-                              >
-                                Three
-                              </a>
-                            </li> */}
-                        </ul>
-                      </div>
-                    </div></Box>
-                  </Link>
-                  <Link to='/writing'>
-                    <Box sx={{ color: "#FFFFFF", fontSize: "18px", fontFamily: "Poppins", fontWeight: 300 }}><div className="antialiased">
-                      <div className="group">
-                        <div
-                          className={`${pathname === "/writing" ? "activeClass" : "noActiveClass"} font-style  dropdown rounded inline-flex items-center`}
-                        >
-                          <span className="mr-1 ">WRITING</span>
-                          <BsChevronDown />
-                        </div>
-                        <ul className="absolute z-10 hidden text-gray-700 pt-1 group-hover:block">
-                          {/*<li className="">
-                            <Link
-                              to={"/writingarticles"}
-                              className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-
-                            >
-                              Articles
-                            </Link>
-                          </li>*/}
-                          <li className="">
-                            <Link to={"/writingfiction"}
-                              className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                              href="#"
-                            >
-                              Fiction
-                            </Link>
-                          </li>
-                          {/* <li className="">
-                              <a
-                                className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                                href="#"
-                              >
-                                Three
-                              </a>
-                            </li> */}
-                        </ul>
-                      </div>
-                    </div></Box>
-                  </Link>
+                  <DropdownMenu pathname={pathname} menuName="Novels" openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} />
+                  <DropdownMenu pathname={pathname} menuName="Writing" subMenuItems={[{label:'Fiction', link:'writingfiction'}]} openDropdown={openDropdown} setOpenDropdown={setOpenDropdown} />
 
                   <NavBarButton menuname="Events" />
                   <NavBarButton menuname="Media" />
                   <NavBarButton menuname="About" />
                   <NavBarButton menuname="Contact" />
                 </Stack>
-
-
-
               </Grid>
-
             </Grid>
-
-
-
           </Toolbar>
         </AppBar>
 
