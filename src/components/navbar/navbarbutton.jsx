@@ -9,11 +9,12 @@ const NavBarButton = ({ menuname, droplist }) => {
     if (droplist) {
         // Render a dropdown
         return (
-            <Link to={url} style={{ marginRight: '10px' }}>
+           
+            <Link to={url} style={{ marginRight: '10px', position: 'relative'}}>
                 <span className="navbarbutton rounded inline-flex items-center menuname-text">
                     {menuname} <BsChevronDown />
                 </span>
-                
+            
                 <span className="droplist-text dropdown">
                     {droplist}
                 </span>          
