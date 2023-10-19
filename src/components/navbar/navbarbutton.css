@@ -1,34 +1,43 @@
-.navbarbutton{
+.navbarbutton {
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif !important;
     font-size: 18px;
     font-weight: 300;
     text-transform: uppercase;
-  }
+}
 
 .navbarbutton:hover {
     color: #ff9b02;
 }
+
 .navbarbutton:focus {
     color: #ff9b02;
 }
+
 .droplist-text {
     display: none;
     position: absolute;
-  top: 100%; 
-  left: 0; 
-  background: #fff; 
-  padding: 10px; 
-  z-index: 1;
-  }
-  
-
-  /* Show droplist when .menuname-text is hovered */
-.navbarbutton:hover + .droplist-text,
+    font-family: 'Poppins', sans-serif !important;
+    color: #000;
+    z-index: 10;
+    background-color: #ccc;
+    white-space: nowrap;
+    top: 100%;
+    left: 0;
+    padding: 0.5rem 1rem;
+    padding: 10px;
+    
+    z-index: 1;
+}
 .droplist-text:hover {
-  display: block;
+    display: block;
+    color: #000;
+    background-color: #6b6767; /* Set the background color on hover */
+  }
+
+/* Show droplist when .menuname-text is hovered */
+.navbarbutton:hover+.droplist-text {
+    display: block;
 }
 
-.sublistbutton{
-
-}
+.sublistbutton {}

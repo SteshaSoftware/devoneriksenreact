@@ -11,7 +11,7 @@ const NavBarButton = ({ menuname, droplist }) => {
         return (
            
             <Link to={url} style={{ marginRight: '10px', position: 'relative'}}>
-                <span className="navbarbutton rounded inline-flex items-center menuname-text">
+                <span className="navbarbutton rounded inline-flex items-center">
                     {menuname} <BsChevronDown />
                 </span>
             
@@ -25,7 +25,7 @@ const NavBarButton = ({ menuname, droplist }) => {
         // Render a single link
         return (
             <Link className="navbarbutton" to={url}>
-                <span className="navbarbutton rounded inline-flex items-center menuname-text">
+                <span className="navbarbutton rounded inline-flex items-center">
                     {menuname}
                 </span>
             </Link>
