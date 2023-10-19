@@ -125,10 +125,10 @@ const Navbar = () => {
                           className={`${pathname === "/novels" ? "activeClass" : "noActiveClass"} font-style  dropdown rounded inline-flex items-center`}
                         >
                           <span className="mr-1 ">NOVELS</span>
-                          <BsChevronDown />
+                        {/*<BsChevronDown />*/}
                         </div>
                         <ul className="absolute z-10 hidden text-gray-700 pt-1 group-hover:block">
-                          <li className="">
+                         {/* <li className="">
                             <Link
                               to={"/orbital-space"}
                               className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
