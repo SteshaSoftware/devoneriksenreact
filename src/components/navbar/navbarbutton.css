@@ -4,6 +4,7 @@
     font-size: 18px;
     font-weight: 300;
     text-transform: uppercase;
+    margin-right: 10px;
   }
 
 .navbarbutton:hover {
@@ -14,15 +15,8 @@
 }
 .droplist-text {
     display: none;
-    position: absolute;
-  top: 100%; 
-  left: 0; 
-  background: #fff; 
-  padding: 10px; 
-  z-index: 1;
   }
   
-
   /* Show droplist when .menuname-text is hovered */
 .navbarbutton:hover + .droplist-text,
 .droplist-text:hover {

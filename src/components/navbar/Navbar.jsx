@@ -109,7 +109,7 @@ const Navbar = () => {
                 </IconButton>
 
               </Stack>
-              <Stack direction={"column"} width="330px" height={"100%"} role="presentation"  sx={{ paddingLeft: '20px' }}>
+              <Stack direction={"column"} width="330px" height={"100%"} role="presentation"  alignItems="center">
 
                 {/* <Link to={"/"} sx={{textDecoration:"none"}}> */}
                 <Typography variant="h4" sx={{ color: "white", marginTop: 6, marginBottom: 3, textAlign: "center", fontFamily: "Dancing Script, cursive" }}>Devon Eriksen</Typography>
@@ -205,7 +205,7 @@ const Navbar = () => {
 
                   <NavBarButton menuname="Events" />
                   <NavBarButton menuname="Media" />
-                  <NavBarButton menuname="About" droplist={"More"} />
+                  <NavBarButton menuname="About" />
                   <NavBarButton menuname="Contact" />
                 </Stack>
               </Grid>
