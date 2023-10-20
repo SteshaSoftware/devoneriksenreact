@@ -1,7 +1,7 @@
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material'
 import React from 'react'
 // import "./authorCard.css"
-import book1 from "../../images/book1over.png"
+import book1 from "../../images/cover-3d.png"
 import "./bookcard.css"
 import { Link } from 'react-router-dom'
 import PurchaseBox from '../PurchaseBox/PurchaseBox'

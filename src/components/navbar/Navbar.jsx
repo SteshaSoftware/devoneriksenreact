@@ -205,7 +205,7 @@ const Navbar = () => {
             <Grid style={{ marginTop: "35px", marginBottom: "35px" }} container alignItems={"center"} display={{ xs: "none", md: "flex" }}>
               <Grid md={12} item lg={4.3}>
                 <NavLink to={"/"} className={"hover:text-white"}>
-                  <Typography textAlign={{ md: "center", lg: "start" }} variant="h4" sx={{ paddingLeft: "33px", fontFamily: "Dancing Script, cursive" }}>MainDevon Eriksen</Typography>
+                  <Typography textAlign={{ md: "center", lg: "start" }} variant="h4" sx={{ paddingLeft: "33px", fontFamily: "Dancing Script, cursive" }}>Devon Eriksen</Typography>
                 </NavLink>
               </Grid>
               <Grid item md={12} lg={7.7}>

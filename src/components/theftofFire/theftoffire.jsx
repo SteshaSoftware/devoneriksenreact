@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Card, CardActionArea, CardContent, CardMedia, Divider, Stack, Typography } from '@mui/material'
-import book1 from "../../images/book1over.png"
+import book1 from "../../images/ToFcover.jpg"
 import { Link } from 'react-router-dom'
 import "./theft.css"
 import PurchaseBox from '../PurchaseBox/PurchaseBox'

@@ -11,7 +11,7 @@ const PurchaseBox = () => {
                 <StarButton />
                 <Button />
             </Box>
-            <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 20, md: 20 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#FFFFFF"} style={{ marginTop: '20px' }}>
+            <Typography component="div" variant="h5" fontSize={{ xs: 20, sm: 24, md: 32 }} fontWeight={"bold"} fontFamily={"Heebo, sans-serif"} color={"#FFFFFF"} style={{ marginTop: '20px' }}>
                 Add to <a href="https://www.goodreads.com/book/show/199142773-theft-of-fire" style={{ color: "#ff9b02" }}>Goodreads</a>
             </Typography>
         </>
