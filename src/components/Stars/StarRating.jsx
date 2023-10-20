@@ -30,7 +30,7 @@ const StarRating = ({ rating }) => {
             </span>
           )}
           <span className = "score">
-          {rating}
+         
           </span>
         </div>
       </div>
