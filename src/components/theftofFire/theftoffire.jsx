@@ -4,6 +4,7 @@ import book1 from "../../images/book1over.png"
 import { Link } from 'react-router-dom'
 import "./theft.css"
 import PurchaseBox from '../PurchaseBox/PurchaseBox'
+import StarRating from '../Stars/StarRating'
 
 const TheftOfFire = () => {
   return (
@@ -29,6 +30,7 @@ const TheftOfFire = () => {
 
             Maybe they won’t murder each other on the way there.</Typography>
           <PurchaseBox />
+          <StarRating rating={4.86} /> 
         </Stack>
 
       </Box>
