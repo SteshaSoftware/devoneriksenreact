@@ -30,7 +30,7 @@ const TheftOfFire = () => {
 
             Maybe they won’t murder each other on the way there.</Typography>
           <PurchaseBox />
-          <StarRating rating={4.86} /> 
+          {/* <StarRating rating={4.86} />  */}
         </Stack>
 
       </Box>

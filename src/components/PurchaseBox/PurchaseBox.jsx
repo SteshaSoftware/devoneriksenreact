@@ -7,7 +7,7 @@ import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material'
 const PurchaseBox = () => {
     return (
         <>
-            <Box sx={{ display: "flex", flexDirection: "row", justifyContent: { xs: "center", md: "start" } }}>
+            <Box sx={{ display: "flex", alignItems: {xs: "center"}, flexDirection: { xs: "column", md: "row" }, justifyContent: { xs: "center", md: "start" } }}>
                 <StarButton />
                 <Button />
             </Box>
