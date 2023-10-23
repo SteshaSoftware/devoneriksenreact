@@ -11,6 +11,7 @@
     padding: 30px; 
     overflow-y: auto; 
     margin-bottom: 20px;
+    text-align: center;
   }
   .heading {
     font-size: 24px; 
@@ -42,8 +43,8 @@
     font-size: 16px;
     line-height: 24px;
     color: #ff9b02;
-    
   }
+
   @media (max-width: 900px ) {
     .heading {
         width: 380px;
